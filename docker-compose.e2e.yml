@@ -1,0 +1,4 @@
+version: "3.9"
+services: 
+  web:
+    command: ["npm", "run", "test:e2e"]
